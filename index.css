@@ -12,52 +12,6 @@ body {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-li,
-p,
-pre,
-blockquote,
-figure,
-hr {
-  margin: 0;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:focus {
-  outline: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: block;
-}
-
-
-ol,
-ul {
-  list-style: none;
-}
-
-
-
-input,
-textarea,
 button {
   border: 0;
   border-radius: 0;
@@ -68,18 +22,6 @@ button {
   outline: none;
   appearance: none;
   text-align: left;
-}
-
-input:hover,
-input:active,
-input:focus,
-textarea:hover,
-textarea:active,
-textarea:focus,
-button:hover,
-button:active,
-button:focus {
-  outline: none;
 }
 
 :root {
@@ -154,11 +96,11 @@ body {
   z-index: 1;
 }
 
-.key--operator {
+.KeyOperator {
   background-color: rgb(238, 238, 238);
 }
 
-.key--equal {
+.KeyEqual {
   background-image: linear-gradient(to bottom, rgb(254, 136, 106), rgb(255, 112, 51));
   grid-column: -2;
   grid-row: 2 / span 4;
