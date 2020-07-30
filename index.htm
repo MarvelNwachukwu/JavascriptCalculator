@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./index.css">
-    <script src="./MyScript.js"></script>
+    <link rel="shortcut icon" href='/calculator.svg' type="image/x-icon">
     <title>Calculator</title>
 </head>
 <body>
     <div class="container">
-       
-        <div class="calculator">
-          <div class="calculator__display">0</div>
-    
+      <div class="calculator">
+        <div class="calculator__display">0</div>
           <div class="calculator__keys">
-            <button class="KeyOperator" data-action="add">+</button>
-            <button class="KeyOperator" data-action="subtract">-</button>
-            <button class="KeyOperator" data-action="multiply">&times;</button>
-            <button class="KeyOperator" data-action="divide">÷</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>0</button>
-            <button data-action="decimal">.</button>
-            <button data-action="clear">AC</button>
-            <button class="KeyEqual" data-action="calculate">=</button>
+            <button id='funcKey' class="KeyOperator multiply">&times;</button>
+            <button id='funcKey'  class="KeyOperator divide">÷</button>
+            <button id='funcKey'  class="KeyOperator add">+</button>
+            <button id='funcKey'  class="KeyOperator subtract">-</button>
+            <button id='funcKey' >7</button>
+            <button id='funcKey' >8</button>
+            <button id='funcKey' >9</button>
+            <button id='funcKey' >4</button>
+            <button id='funcKey' >5</button>
+            <button id='funcKey' >6</button>
+            <button id='funcKey' >1</button>
+            <button id='funcKey' >2</button>
+            <button id='funcKey' >3</button>
+            <button id='funcKey' >0</button>
+            <button id='funcKey'  class="decimal">.</button>
+            <button class="clear">AC</button>
+            <button id='funcKey'  class="KeyEqual" data-action="calculate">=</button>
           </div>
         </div>
-      </div>
+     </div>
     
+
+  <script src="./MyScript.js"></script>
 </body>
 </html>
