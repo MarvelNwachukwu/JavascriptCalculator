@@ -25,7 +25,7 @@ document.querySelectorAll('#KeyOperator').forEach(item => {
     onScreen += item.innerHTML
     whatToProcess.push(userCurrentInput)
     userCurrentInput = 0
-    console.log(whatToProcess)
+    console.log(operator)
 
   })
 })
@@ -56,7 +56,7 @@ document.querySelector('.KeyEqual').addEventListener('mouseup', () => {
     result = parseInt(whatToProcess[0]) + parseInt(whatToProcess[1])
   } else if (operator == '-') {
     result = parseInt(whatToProcess[0]) - parseInt(whatToProcess[1])
-  } else if (operator == '*') {
+  } else if (operator == '×') {
     result = parseInt(whatToProcess[0]) * parseInt(whatToProcess[1])
   } else if (operator == '÷') {
     result = parseInt(whatToProcess[0]) / parseInt(whatToProcess[1])
