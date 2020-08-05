@@ -45,12 +45,6 @@ document.querySelector('.clear').addEventListener('mouseup', () => {
 
 document.querySelector('.KeyEqual').addEventListener('mouseup', () => {
   whatToProcess.push(userCurrentInput)
-  // for(let i = 0; i < whatToProcess.length; i++){
-  //   parseInt(whatToProcess[i])
-  //   console.log(whatToProcess[i])
-  //   console.log(typeof(parseInt(whatToProcess[i])))
-  // }
-
 
   if (operator == '+') {
     result = parseInt(whatToProcess[0]) + parseInt(whatToProcess[1])
